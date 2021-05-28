@@ -9,9 +9,9 @@
 <h1>CG制作課題2
 </h1>
 <h2>サンプル</h2>
-<p><a href="repo1">three.jsの基本プログラム（立方体）</a></p>
-<p><a href="repo2">２つのライトの立方体</a></p>
-<p><a href="repo 2">平面</a></p>
+<p><a href="repo1.html">three.jsの基本プログラム（立方体）</a></p>
+<p><a href="repo2.html">２つのライトの立方体</a></p>
+<p><a href="repo 2/html">平面</a></p>
 <p><a href="sample3-light.html">角錐ー円錐</a></p>
 <p><a href="sample4-light.html">角柱ー円柱</a></p>
 <p><a href="sample5-light.html">球（ワイヤフレーム）</a></p>
