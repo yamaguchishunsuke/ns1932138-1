@@ -8,6 +8,7 @@
   <!-- <script src="./three.js"></script> -->
   <!-- three.jsを読み込む(CDN) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/99/three.min.js"></script>
+  <script src="OrbitControls.js"></script>
 
 </head>
 <body>
@@ -95,6 +96,14 @@ scene.add( cone );
       box.rotation.y  += 0.005;
 
       cone.rotation.x  += 0.005;
+      
+       tick();
+      
+      // 毎フレーム時に実行されるループイベントです
+        function tick() {
+          // レンダリング
+          renderer.render(scene, camera);
+          requestAnimationFrame(tick);
 
 
   
