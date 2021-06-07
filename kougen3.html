@@ -28,6 +28,9 @@
   
     // カメラを作成
     var camera = new THREE.PerspectiveCamera(100, width / height, 1, 3000);
+    
+     // カメラコントローラーを作成
+        const controls = new THREE.OrbitControls(camera,document.body);
   
 //なんかクネクネしてるやつ
 var torusKnotGeometry = new THREE.TorusKnotGeometry( 3, 0.25, 15, 4, 3, 2 ); 
